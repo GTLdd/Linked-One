@@ -77,10 +77,17 @@
     color: #161A30;
 }
 
+.Hero-text-title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #161A30;
+}
+
 .Hero-text-Para{
     font-size: 16px;
     font-family: sans-serif;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 80px;
     color: #31304D90;
     line-height: 0.6cm;
