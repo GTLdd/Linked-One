@@ -55,7 +55,36 @@
     font-size: 20px;
 }
 
+.hero-section{
+    padding: 50px;
+    text-align: center;
+    
+    
+}
 
+.Hero-Profile-Img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 80px;
+}
+
+.Hero-text-head{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    color: #161A30;
+}
+
+.Hero-text-Para{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #31304D90;
+    line-height: 0.6cm;
+}
 
 
 
@@ -91,6 +120,10 @@
     .profile-text{
         margin-left: 30px;
         margin-top: 80px;
+    }
+
+    .Hero-text-Para{
+        text-align:center;
     }
     
 
