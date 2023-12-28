@@ -350,6 +350,9 @@
         display: block;
     }
     
+    .tool-text, .grid-para{
+        font-weight: bold;
+    }
 
     #tool-section{
         height: 1500px;
