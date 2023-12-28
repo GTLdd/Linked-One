@@ -94,7 +94,7 @@
 }
 
 #skill-section{
-    height: 600px;
+    height: 400px;
 }
 
 .skill-text-head{
@@ -117,7 +117,7 @@
     display: grid;
     grid-template-rows: 80px 80px;
     grid-template-columns: repeat(4,300px);
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .grid-flex{
@@ -131,7 +131,7 @@
 
 .inner-grid{
     display: grid;
-    grid-template-rows: 80px 80px;
+    grid-template-rows: 80px;
     grid-template-columns: 80px 200px;
     
 }
@@ -156,6 +156,23 @@
     width: 65px;
     height: 62px;
 }
+
+.grid-img-6{
+    width: 80px;
+    height: 80px;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+
+.grid-img-7{
+    width: 65px;
+    height: 65px;
+}
+
+.grid-img-8{
+    margin-left: -4px;
+}
+
 
 .grid-para{
     font-family: sans-serif;
@@ -204,7 +221,44 @@
     .Hero-text-Para{
         text-align:center;
     }
+
+    .skill-grid{
+        display: block;
+        margin-left: 40px;
+        
+    }
+
+    .skill{
+        font-size: 30px;
+        width: 80%;
+        
+    }
+
+    #skill-section{
+        height: 850px;
+        
+    }
+
+    .grid-flex{
+        display: block;
+        
+    }
+
+    .grid-img-2{
+        margin-left: 4px;
+    }
     
+    .grid-img-4{
+        margin-left: 1px;
+    }
+
+    .grid-img-5{
+        margin-left: 4px;
+    }
+
+    .grid-img-8{
+        margin-left: 4px;
+    }
 
 }
 
