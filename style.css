@@ -259,11 +259,60 @@
     margin-top: -7.5px;
 }
 
+#education-section{
+    height: 800px;
+}
+
+.education-title{
+    display: flex;
+    justify-content: center;
+}
+
+.head-div{
+     margin-top:30px ;
+}
+
+.description-div{
+    margin-top: 30px;
+}
+
+.education-flexbox{
+    display: inline-flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+.flexbox{
+    margin-right: 50px;
+}
+
+.edu-img{
+    height: 200px;
+    width: 350px;
+}
+
+.edu-img-1{
+    border: 1px solid black;
+    object-fit: cover;
+}
+
+.edu-img-2{
+    border: 1px solid black;
+}
+
+.edu-img-3{
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+
 
 @media (max-width: 650px ){
     .nav-section{
-        display: block;
-        
+        display: block;  
         
     }
 
