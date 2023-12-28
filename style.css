@@ -341,5 +341,23 @@
         margin-left: 4px;
     }
 
+    .tool-grid{
+        display: block;
+        margin-left: 40px;
+    }
+
+    .tool-grid-flex{
+        display: block;
+    }
+    
+    .tool-text, .grid-para{
+        font-weight: lighter;
+    }
+
+    #tool-section{
+        height: 1500px;
+    }
+    
+
 }
 
