@@ -222,6 +222,10 @@
         text-align:center;
     }
 
+    .Hero-text-head{
+        margin-bottom: 30px;
+    }
+
     .skill-grid{
         display: block;
         margin-left: 40px;
