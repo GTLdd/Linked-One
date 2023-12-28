@@ -352,6 +352,8 @@
     
     .tool-text, .grid-para{
         font-weight: bold;
+        font-size: 22px;
+        margin-top: 18px;
     }
 
     #tool-section{
