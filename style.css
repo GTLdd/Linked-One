@@ -501,12 +501,26 @@ li{
 
     .school-flex{
         display: block;
-        margin-left: 45px;
+        margin-left: 65px;
     }
 
     .edu-img{
         height: 150px;
         width: 270px;
+    }
+
+    .school-icon{
+        height: 80px;
+        width: 75px;
+    }
+
+    .school-title{
+        margin-top: 19px;
+        font-size: 20px;
+    }
+    
+    .school-sub-title{
+        font-size: 15px;
     }
 }
 
