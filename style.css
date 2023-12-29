@@ -382,6 +382,7 @@ li{
     display: grid;
     grid-template-rows: 120px;
     grid-template-columns: repeat(3,400px);
+    margin-left: 19px;
     
 }
 
@@ -542,6 +543,8 @@ li{
     .school-grid-level-1{
         display: block;
     }
+
+
 
     .school-flex{
         display: block;
