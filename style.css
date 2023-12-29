@@ -178,7 +178,7 @@
 
 .grid-para{
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 22.5px;
     color: #787676;
     margin-top: 16px;
 
@@ -218,7 +218,7 @@
 .tool-text
 {
     font-family: sans-serif;
-    font-size: 26px;
+    font-size: 23.5px;
     color: #787676;
     margin-top: 12.2px;
 }
@@ -290,7 +290,7 @@
 }
 
 .tool-text-1, .tool-text-16{
-    margin-top: 10px;
+    margin-top: 11px;
 }
 
 #education-section{
@@ -348,6 +348,7 @@
 .education-text-head{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 10px;
+    font-size: 19px;
 
 }
 
@@ -371,7 +372,7 @@ li{
 
 .sub-title{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     margin-top: 30px;
     color: #161A30;
     padding: 10px;
