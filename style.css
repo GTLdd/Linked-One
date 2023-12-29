@@ -506,10 +506,16 @@ li{
         display: block;
     }
     
-    .tool-text, .grid-para{
+    .grid-para{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 22px;
-        margin-top: 18px;
+        margin-top: 19px;
+    }
+
+    .tool-text{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 22px;
+        margin-top: 12px;
     }
 
     #tool-section{
