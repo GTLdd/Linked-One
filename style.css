@@ -178,10 +178,14 @@
 
     .grid-para{
         font-family: sans-serif;
-        font-size: 22.5px;
+        font-size: 22px;
         color: #787676;
         margin-top: 16px;
 
+    }
+
+    .grid-para-8{
+        margin-top: 18px;
     }
 
     #tool-section{
@@ -383,7 +387,7 @@
         display: grid;
         grid-template-rows: 120px;
         grid-template-columns: repeat(3,400px);
-        margin-left: 19px;
+        margin-left: 35px;
         
     }
 
@@ -393,7 +397,6 @@
         display: grid;
         grid-template-rows: 120px;
         grid-template-columns: 120px 190px;
-        border-radius: 2.5%;
     }
 
     .school-icon{
