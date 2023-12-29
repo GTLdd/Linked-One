@@ -58,6 +58,7 @@
 .hero-section{
     padding: 50px;
     text-align: center;
+    background-color: #E9ECEF70;
     
     
 }
@@ -95,6 +96,7 @@
 
 #skill-section{
     height: 400px;
+    
 }
 
 .skill-text-head{
@@ -292,7 +294,8 @@
 }
 
 #education-section{
-    height: 950px;
+    height: 860px;
+    margin-top: 40px;
 }
 
 .education-title{
@@ -335,6 +338,7 @@
 .edu-img-2{
     border: 0.1px solid grey;
 }
+
 
 .edu-img-3{
     object-fit: cover;
@@ -410,6 +414,7 @@ li{
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    margin-left: 25px;
 }
 
 
@@ -518,12 +523,12 @@ li{
     }
 
     #education-section{
-        height: 1650px;
+        height: 1850px;
         
     }
 
     .flexbox{
-        margin-bottom: 40px;
+        margin-bottom: 10px;
     }
 
 
