@@ -260,7 +260,7 @@
 }
 
 #education-section{
-    height: 1000px;
+    height: 950px;
 }
 
 .education-title{
@@ -480,7 +480,7 @@ li{
     
     .education-flexbox{
         display: block;
-        margin-left: 65px;
+        margin-left: 45px;
     }
 
     #education-section{
@@ -491,10 +491,7 @@ li{
         margin-bottom: 40px;
     }
 
-    .edu-img{
-        height: 300px;
-        width: 90%;
-    }
+
 
     .school-grid-level-1{
         display: block;
@@ -502,7 +499,7 @@ li{
 
     .school-flex{
         display: block;
-        margin-left: 65px;
+        margin-left: 45px;
     }
 }
 
