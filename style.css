@@ -1,412 +1,357 @@
-*{
-    margin: 0;
-    padding: 0;
-
-}
-
-.nav-section{
-    background-color: #161A30;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-    color: #F0ECE5;
-}
-
-.nav-head{
-    font-family: 'Roboto Condensed', sans-serif;
-    letter-spacing: 0.8mm;
-    font-weight: bold;
-    text-align: center;
-}
-
-.link-text{
-    text-decoration: none;
-    font-size: 20px;
-    color: #F0ECE5;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
-    letter-spacing: 0.8mm;
-    margin-left: 15px;
-}
-
-
-.profile-img{
-    position: relative;
-    height: 650px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.profile-text{
-    position: absolute;
-    z-index: 1;
-    color: #F0ECE5;
-    font-family: 'Roboto Condensed', sans-serif;   
-    letter-spacing: 1.2mm; 
-    margin-top: 50px;
-    margin-left: 100px;
-}
-
-.img-text{
-    font-size: 100px;
-}
-
-.para-text{
-    font-size: 20px;
-}
-
-.hero-section{
-    padding: 50px;
-    text-align: center;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Roboto+Condensed:wght@200&family=Roboto+Serif:opsz@8..144&display=swap" rel="stylesheet">
     
+    <link rel="stylesheet" href="./style.css">
+    <title>Profile-One</title>
+</head>
+<body>
     
-}
+    <section id="nav-section">
+        <div class="nav-section">
+            <h1 class="nav-head">Profile-One</h1>
 
-.Hero-Profile-Img{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-    margin-top: 60px;
-}
+            <div class="nav-links">
+                <a class="link-text" href="#">Home</a>
+                <a class="link-text" href="#">Skills</a>
+                <a class="link-text" href="#">Education</a>
+                <a class="link-text" href="#">About</a>
+            </div>
+        </div>
+    </section>
 
-.Hero-text-head{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 40px;
-    margin-top: 20px;
-    color: #161A30;
-}
+    <section id="profile-image-section">
+        <div class="profile-image-section">
+            <div class="profile-text">
+                <h1 class="img-text">I'm Thishon</h1>
+                <p class="para-text">....a Developer</p>
+            </div>
+            <img class="profile-img" src="./assets/profile-bc.jpg" alt="Profile-Background">
+        </div>
+    </section>
 
-.Hero-text-title{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    margin-top: 10px;
-    color: #161A30;
-}
+    <section id="hero-section">
+        <div class="hero-section">
+            
+            <img class="Hero-Profile-Img" src="./assets/Thishon.jpg" alt="Profile Image">
+            <h1 class="Hero-text-head">Visvanathan Thishodharan</h1>
+            <h1 class="Hero-text-title">Student | Senior Support Analyst at Global Tote Lankan</h1>
+            <p class="Hero-text-Para">I am an enthusiastic, self-motivated, reliable, responsible, and hard-working person  
+            who has the ability to act as a mature team worker and is adaptable <br />  to all challenging situations with my quick learning skills to execute tasks swiftly. 
+            I have good interpersonal understanding and communication skills <br /> and am a confident team worker with the ability to work well both in a team environment as well as using my own initiative, 
+            <br />work well under pressure, and adhere to strict deadlines.</p>
+        </div>
+    </section>
 
-.Hero-text-Para{
-    font-size: 16px;
-    font-family: sans-serif;
-    margin-top: 40px;
-    margin-bottom: 60px;
-    color: #31304D90;
-    line-height: 0.6cm;
-}
+    <section id="skill-section">
+        <div class="skill-text-head">
+            <h1 class="skill title">Hands on skills</h1>
+        </div>
 
-#skill-section{
-    height: 400px;
-}
+        <div class="grid-flex">
+            <div class="skill-grid">
+                <div class="item inner-grid 1">
+                    <div class="inner-item 1">
+                        <img class="grid-img grid-img-1" src="./assets/html.jpg" alt="Html">
+                    </div>
+                    <div class="inner-item 2">
+                        <p class="grid-para">HTML</p>
+                    </div>
+                </div>
+                <div class="item inner-grid 2">
+                    <div class="inner-item 1">
+                        <img class="grid-img grid-img-2" src="./assets/CSS.jpg" alt="CSS">
+                    </div>
+                    <div class="inner-item 2">
+                        <p class="grid-para">CSS</p>
+                    </div>
+                </div>
+                <div class="item inner-grid 3">
+                    <div class="inner-item 1">
+                        <img class="grid-img grid-img-3" src="./assets/JavaScript.jpg" alt="JavaScript">
+                    </div>
+                    <div class="inner-item 2">
+                        <p class="grid-para">JavaScript</p>
+                    </div>
+                </div>
+                <div class="item inner-grid 4">
+                    <div class="inner-item 1">
+                        <img class="grid-img grid-img-4" src="./assets/bootstrap.png" alt="bootstrap">
+                    </div>
+                    <div class="inner-item 2">
+                        <p class="grid-para">Bootstrap</p>
+                    </div>
+                </div>
+                <div class="item inner-grid 5">
+                    <div class="inner-item 1">
+                        <img class="grid-img grid-img-5" src="./assets/php.png" alt="Php">
+                    </div>
+                    <div class="inner-item 2">
+                        <p class="grid-para">php</p>
+                    </div>
+                </div>
+                <div class="item inner-grid 6">
+                    <div class="inner-item 1">
+                        <img class="grid-img grid-img-8" src="./assets/python.png" alt="Python">
+                    </div>
+                    <div class="inner-item 2">
+                        <p class="grid-para">Python</p>
+                    </div>
+                </div>
+                <div class="item inner-grid 7">
+                    <div class="inner-item 1">
+                        <img class="grid-img grid-img-6" src="./assets/mysql.jpg" alt="MySQL">
+                    </div>
+                    <div class="inner-item 2">
+                        <p class="grid-para">MySQL</p>
+                    </div>
+                </div>
+                <div class="item inner-grid 8">
+                    <div class="inner-item 1">
+                        <img class="grid-img grid-img-7" src="./assets/c++.png" alt="C++">
+                    </div>
+                    <div class="inner-item 2">
+                        <p class="grid-para">C++</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-.skill-text-head{
-    display: flex;
-    justify-content: center;
-}
+    <section id="education-section">
+        <div class="education-title">
+            <h1 class="title">Education Qualities</h1>
+        </div>
 
-.title{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    margin-top: 20px;
-    color: #161A30;
-    border-bottom: 2px solid #B6BBC440;
-    border-radius: 80;
-    padding: 10px;
-    width: 80%;
-}
+        <div class="education-title">
+            <h1 class="sub-title">Universities</h1>
+        </div>
 
-.skill-grid{
-    display: grid;
-    grid-template-rows: 100px 80px;
-    grid-template-columns: repeat(4,300px);
-    margin-top: 40px;
-}
+        <div class="education-flexbox">
+            <div class="flexbox 1">
+                <div class="img-div">
+                    <img class="edu-img edu-img-1" src="./assets/british-council.webp" alt="british-council">
+                </div>
+                <div class="head-div">
+                    <h1 class="education-text-head">Britich Council</h1> 
+                    <h2 class="education-text-title">Diploma of English Language and </h2>
+                    <h2 class="education-text-title">Literature/Letters - Awarded with grade B</h2>
+                </div>
+            </div>
 
-.grid-flex{
-    display: flex;
-    justify-content: center;
-}
+            <div class="flexbox 1">
+                <div class="img-div">
+                    <img class="edu-img edu-img-2" src="./assets/ISS-removebg-preview.png" alt="ISS Campus">
+                </div>
+                <div class="head-div">
+                    <h1 class="education-text-head">ISS Campus</h1>
+                    <h2 class="education-text-title">DITECH Diploma</h2>
+                    <h2 class="education-text-title">Awarded with grade A</h2>
+                </div>
+            </div>
 
-.item{
-    margin-left: 20px;
-}
-
-.inner-grid{
-    display: grid;
-    grid-template-rows: 80px;
-    grid-template-columns: 80px 200px;
-    
-}
-
-.grid-img{
-    height: 60px;
-    width: 60px;
-}
-
-.grid-img-2{
-    height: 55px;
-    width: 55px;
-    margin-top: 3px;
-}
-
-.grid-img-3{
-    height: 68px;
-    width: 65px;
-}
-
-.grid-img-4{
-    width: 65px;
-    height: 62px;
-}
-
-.grid-img-6{
-    width: 80px;
-    height: 80px;
-    margin-left: -8px;
-    margin-top: -8px;
-}
-
-.grid-img-7{
-    width: 65px;
-    height: 65px;
-}
-
-.grid-img-8{
-    margin-left: -4px;
-}
-
-
-.grid-para{
-    font-family: sans-serif;
-    font-size: 30px;
-    color: #787676;
-    margin-top: 12.2px;
-
-}
-
-#tool-section{
-    height: 600px;
-}
-
-.tool-flex{
-    display: flex;
-    justify-content: center;
-}
-
-.tool-grid{
-    display: grid;
-    grid-template-rows: 100px 100px 100px 100px;
-    grid-template-columns: repeat(4,300px) ;
-    margin-top: 40px;
-}
-
-.grid-level-1{
-    margin-left: 20px;
-}
-
-.grid-level-1{
-    display: grid;
-    grid-template-rows: 80px;
-    grid-template-columns: 80px 200px;
-}
-
-.tool-img{
-    height: 60px;
-    width: 60px;
-}
-
-.tool-text
-{
-    font-family: sans-serif;
-    font-size: 30px;
-    color: #787676;
-    margin-top: 12.2px;
-}
-
-.tool-grid-flex{
-    display: flex;
-    justify-content: center;
-}
-
-.tool-4{
-    height: 58px;
-}
-
-.tool-6{
-    height: 62px;
-}
-
-.tool-7{
-    margin-top: 2.5px;
-}
-
-.tool-8, .tool-10, .tool-12{
-    height: 65px;
-    width: 65px;
-}
-
-.tool-13{
-    height: 65px;
-    width: 68px;
-    margin-left: -4.8px;
-}
-
-.tool-11{
-    height: 65px;
-}
-
-.tool-16{
-    height: 75px;
-    width: 65px;
-    margin-top: -7.5px;
-}
-
-#education-section{
-    height: 800px;
-}
-
-.education-title{
-    display: flex;
-    justify-content: center;
-}
-
-.head-div{
-     margin-top:30px ;
-}
-
-.description-div{
-    margin-top: 30px;
-}
-
-.education-flexbox{
-    display: inline-flex ;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    width: 100%;
-}
+            <div class="flexbox 1">
+                <div class="img-div">
+                    <img class="edu-img edu-img-3" src="./assets/cardiff.jpg" alt="Cardiff-Metropoliton"> 
+                </div>
+                <div class="head-div">
+                    <h1 class="education-text-head">Cardiff Metropolitan</h1>
+                    <h2 class="education-text-title">Software Engeering - HND / BSC (Undergraduate)</h2>
+                    <h2 class="education-text-title">Awarded with Distinction for HND </h2>
+                </div>
+            </div>
+        </div>
 
 
-.flexbox{
-    margin-right: 50px;
-}
+        <div class="education-title">
+            <h1 class="sub-title">Schools</h1>
+        </div>
 
-.edu-img{
-    height: 200px;
-    width: 350px;
-}
-
-.edu-img-1{
-    border: 1px solid black;
-    object-fit: cover;
-}
-
-.edu-img-2{
-    border: 1px solid black;
-}
-
-.edu-img-3{
-    object-fit: cover;
-    border: 1px solid black;
-}
-
-
-
-@media (max-width: 650px ){
-    .nav-section{
-        display: block;  
+        <div class="school-flex">
+            <div class="school-grid-level-1">
+                <div class="school-grid-level-2">
+                    <div class="edu-inner-layer">
+                        <img class="school-icon" src="./assets/RCTV.png" alt="RCTV"> 
+                    </div>
+                    <div class="edu-inner-layer">
+                        <h1 class="school-title">R.C.T.V</h1>
+                        <h1 class="school-sub-title">Grade 1-5</h1>
+                    </div>
+                </div>
+                <div class="school-grid-level-2">
+                    <div class="edu-inner-layer">
+                        <img class="school-icon" src="./assets/Hindu-removebg-preview.png" alt="Hindu college"> 
+                    </div>
+                    <div class="edu-inner-layer">
+                        <h1 class="school-title">Hindu College</h1>
+                        <h1 class="school-sub-title">Grade 6</h1>
+                    </div>
+                </div>
+                <div class="school-grid-level-2">
+                    <div class="edu-inner-layer">
+                        <img class="school-icon" src="./assets/DSSC.png" alt="DSS college"> 
+                    </div>
+                    <div class="edu-inner-layer">
+                        <h1 class="school-title">D.S. Senanayake </h1>
+                        <h1 class="school-sub-title">Grade 6 - A/L</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
         
-    }
+    </section>
 
-    .link-text{
-        display: block;
-        margin-top: 20px;
-        text-align: left;
-        margin-bottom: 20px;
-    }
+    <section id="tool-section">
+        <div class="tool-flex">
+                <h1 class="tool title">Tools Experience</h1>
+        </div>
 
-    .profile-img{
-        width: 100%;
-        height: 550px;
-        object-fit: cover;
-    }
+        <div class="tool-grid-flex">
+            <div class="tool-grid">
+                <div class="box1 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-1" src="./assets/postman.png" alt="postman">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Postman</p>
+                    </div>
+                </div>
+                <div class="box2 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-2" src="./assets/vs code.png" alt="VS Code">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">VS Code</p>
+                    </div>
+                </div>
+                <div class="box3 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-3" src="./assets/datadog.png" alt="Datadog">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Datadog</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-4" src="./assets/new-relic.svg" alt="New-Relic">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">New-Relic</p>
+                    </div>
+                </div>
 
-    .img-text{
-        font-size: 60px;
-    }
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-5" src="./assets/GCP.png" alt="Google Cloud">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">GCP</p>
+                    </div>
+                </div>
+
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-6" src="./assets/github.png" alt="Github">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Github</p>
+                    </div>
+                </div>
+
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-7" src="./assets/powershell.png" alt="powershell">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Powershell</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-8" src="./assets/graphQl.png" alt="graphQl">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">GraphQL</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-9" src="./assets/servicenow.png" alt="servicenow">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Servicenow</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-10" src="./assets/slack.png" alt="Slack">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Slack</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-11" src="./assets/netbeans.png" alt="netbeans">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">NetBeans</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-12" src="./assets/spring boot.png" alt="Spring Boot">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Spring Boot</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-13" src="./assets/workbench.png" alt="workbench">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Workbench</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-14" src="./assets/anaconda.png" alt="anaconda">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Anaconda</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-15" src="./assets/QGIS.png" alt="QGIS">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">QGIS</p>
+                    </div>
+                </div>
+                <div class="box4 grid-level-1">
+                    <div class="tool-icon">
+                        <img class="tool-img tool-16" src="./assets/jupiter.png" alt="Jupyter">
+                    </div>
+                    <div class="tool-info">
+                        <p class="tool-text">Jupyter</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
-    .para-text{
-        font-size: 15px;
-    }
 
-    .profile-text{
-        margin-left: 30px;
-        margin-top: 80px;
-    }
 
-    .Hero-text-Para{
-        text-align:center;
-    }
 
-    .Hero-text-head{
-        margin-bottom: 30px;
-    }
 
-    .skill-grid{
-        display: block;
-        margin-left: 40px;
-        
-    }
-
-    .title{
-        font-size: 30px;
-        width: 80%;
-        
-    }
-
-    #skill-section{
-        height: 850px;
-        
-    }
-
-    .grid-flex{
-        display: block;
-        
-    }
-
-    .grid-img-2{
-        margin-left: 4px;
-    }
-    
-    .grid-img-4{
-        margin-left: 1px;
-    }
-
-    .grid-img-5{
-        margin-left: 4px;
-    }
-
-    .grid-img-8{
-        margin-left: 4px;
-    }
-
-    .tool-grid{
-        display: block;
-        margin-left: 40px;
-    }
-
-    .tool-grid-flex{
-        display: block;
-    }
-    
-    .tool-text, .grid-para{
-        font-weight: bold;
-        font-size: 22px;
-        margin-top: 18px;
-    }
-
-    #tool-section{
-        height: 1500px;
-    }
-    
-
-}
-
+</body>
+</html>
