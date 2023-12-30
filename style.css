@@ -672,7 +672,7 @@
         }
 
         #work-section{
-            height: 2250px;
+            height: 2350px;
             width: 650px;
         }
 
@@ -712,7 +712,7 @@
     
         .grid-work-4{
             display: grid;
-            grid-template-rows: 100px 510px;
+            grid-template-rows: 100px 600px;
             grid-template-columns: 150px 480px;
             margin-top: 40px;
         }
