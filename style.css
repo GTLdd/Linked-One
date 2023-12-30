@@ -425,7 +425,7 @@
     }
     
     #work-section{
-        height: 2100px;
+        height: 2250px;
     }
 
     .work-flex{
@@ -449,14 +449,14 @@
 
     .grid-work-3{
         display: grid;
-        grid-template-rows: 100px 420px;
+        grid-template-rows: 100px 530px;
         grid-template-columns: 150px 1055px;
         margin-top: 40px;
     }
 
     .grid-work-4{
         display: grid;
-        grid-template-rows: 100px 420px;
+        grid-template-rows: 100px 510px;
         grid-template-columns: 150px 1055px;
         margin-top: 40px;
     }
@@ -670,5 +670,24 @@
         .school-sub-title{
             font-size: 15px;
         }
+
+        #work-section{
+            height: 2100px;
+            width: 650px;
+        }
+
+        .grid-work-flex2{
+            display: block;
+        }
+
+        .work-title{
+            font-size: 13px;
+        }
+
+        .work-list{
+            font-size: 10px;
+        }
+
+        
     }
 
