@@ -457,6 +457,13 @@
             margin-left: 156px;
         }
 
+        .work-grid-4{
+            display: grid;
+            grid-template-rows: 100px 550px;
+            grid-template-columns: 150px 600px;
+            margin-top: 40px;
+            margin-left: 156px;
+        }
 
 
         .grid-3{
@@ -642,7 +649,7 @@
             }
 
             #Work-experience-section{
-                height: 2900px;
+                height: 3100px;
                 background-color: yellow;
             }
             
@@ -662,8 +669,14 @@
                 margin-left: 10px;
             }
 
+            .work-grid-4{
+                display: block;
+                margin-left: 10px;
+            }
+
             .work-title{
                 font-size: 19px;
+                margin-left: 30px;
             }
 
             .work-list{
@@ -675,7 +688,12 @@
             }
 
             .spoton-img{
-                margin-left: 30px;
+                margin-left: 25px;
+            
+            }
+
+            .gtl-img{
+                margin-left: -12px;
             }
     
 
