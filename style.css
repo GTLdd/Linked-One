@@ -691,7 +691,7 @@
 
         .grid-work-1{
             display: grid;
-            grid-template-rows: 100px 420px;
+            grid-template-rows: 100px 520px;
             grid-template-columns: 150px 480px;
             margin-top: 40px;
         }
