@@ -441,6 +441,14 @@
             margin-left: 156px;
         }
 
+        .work-grid-2{
+            display: grid;
+            grid-template-rows: 100px 550px;
+            grid-template-columns: 150px 600px;
+            margin-top: 40px;
+            margin-left: 156px;
+        }
+
         .grid-1{
             background-color: yellow;
         }
@@ -642,7 +650,12 @@
                 margin-left: 10px;
             }
 
-            
+            .work-grid-2{
+                display: block;
+                margin-left: 10px;
+            }
+
+  
 
             
         }
