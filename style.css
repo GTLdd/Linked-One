@@ -682,6 +682,7 @@
 
         .work-title{
             font-size: 13px;
+            margin-left: -30px;
         }
 
         .work-list{
@@ -714,6 +715,16 @@
             grid-template-rows: 100px 510px;
             grid-template-columns: 150px 480px;
             margin-top: 40px;
+        }
+
+        .work-img{
+            margin-left: 1px;
+        }
+
+        .img-spoton{
+            width: 70px;
+            margin-left: 35px;
+            margin-top: -8px;
         }
 
         
