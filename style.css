@@ -449,16 +449,17 @@
             margin-left: 156px;
         }
 
-        .grid-1{
-            background-color: yellow;
+        .work-grid-3{
+            display: grid;
+            grid-template-rows: 100px 550px;
+            grid-template-columns: 150px 600px;
+            margin-top: 40px;
+            margin-left: 156px;
         }
 
-        .grid-2{
-            background-color: grey;
-        }
+
 
         .grid-3{
-            background-color: green;
             grid-area: 2/ 1/ 3/ 3;
         }
 
@@ -641,7 +642,7 @@
             }
 
             #Work-experience-section{
-                height: 2300px;
+                height: 2100px;
             }
             
 
@@ -655,12 +656,25 @@
                 margin-left: 10px;
             }
 
+            .work-grid-3{
+                display: block;
+                margin-left: 10px;
+            }
+
             .work-title{
                 font-size: 19px;
             }
 
             .work-list{
                 font-size: 14px;
+            }
+
+            .sgs-img{
+                height: 80px;
+            }
+
+            .spoton-img{
+                margin-left: 30px;
             }
     
 
