@@ -672,7 +672,7 @@
         }
 
         #work-section{
-            height: 2100px;
+            height: 2250px;
             width: 650px;
         }
 
@@ -686,6 +686,34 @@
 
         .work-list{
             font-size: 10px;
+        }
+
+        .grid-work-1{
+            display: grid;
+            grid-template-rows: 100px 420px;
+            grid-template-columns: 150px 480px;
+            margin-top: 40px;
+        }
+    
+        .grid-work-2{
+            display: grid;
+            grid-template-rows: 100px 250px;
+            grid-template-columns: 150px 480px;
+            margin-top: 40px;
+        }
+    
+        .grid-work-3{
+            display: grid;
+            grid-template-rows: 100px 530px;
+            grid-template-columns: 150px 480px;
+            margin-top: 40px;
+        }
+    
+        .grid-work-4{
+            display: grid;
+            grid-template-rows: 100px 510px;
+            grid-template-columns: 150px 480px;
+            margin-top: 40px;
         }
 
         
