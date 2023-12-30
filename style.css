@@ -433,10 +433,10 @@
             justify-content: center;
         }
 
-        .work-grid{
+        .work-grid-1{
             display: grid;
-            grid-template-rows: 50px 500px;
-            grid-template-columns: 50px 600px;
+            grid-template-rows: 80px 500px;
+            grid-template-columns: 80px 600px;
             margin-top: 40px;
         }
 
@@ -613,6 +613,13 @@
             
             .work-flex{
                 display: block;
+            }
+
+            .work-grid-1{
+                display: grid;
+                grid-template-rows: 80px 500px;
+                grid-template-columns: 80px 550px;
+              
             }
 
             
