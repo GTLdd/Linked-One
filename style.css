@@ -477,11 +477,25 @@
             margin-top: -10px;
         }
 
+        .sgs-img{
+            width: 200px;
+            margin-left: -20px;
+        }
+
+        .spoton-img{
+            width: 120px;
+            height: 180px;
+            margin-left: -10px;
+            margin-top: -42px;
+        }
+
         .work-title{
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 22px;
             margin-top: 23px;
         }
+
+        
 
         .work-ul{
             margin-left: 30px;
