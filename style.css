@@ -1,4 +1,3 @@
-
         *{
             margin: 0;
             padding: 0;
@@ -819,10 +818,10 @@
             }
     
             .home-arrow{
-                background-color:whitesmoke;
+                background-color:white;
                 width: 50px;
                 height: 50px;
-                margin-left: 79%;
+                margin-left: 77%;
                 margin-top: 180px;
                 position: fixed;
                 border-radius: 10%;
