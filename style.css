@@ -71,7 +71,7 @@
             }
 
             .para-text{
-                font-size: 20px;
+                font-size: 21px;
             }
 
             .hero-section{
@@ -197,7 +197,7 @@
 
             .grid-para{
                 font-family: sans-serif;
-                font-size: 22px;
+                font-size: 21px;
                 color: #787676;
                 margin-top: 16px;
 
@@ -241,7 +241,7 @@
             .tool-text
             {
                 font-family: sans-serif;
-                font-size: 23.5px;
+                font-size: 21px;
                 color: #787676;
                 margin-top: 12.2px;
             }
@@ -395,7 +395,7 @@
 
             .sub-title{
                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-                font-size: 21px;
+                font-size: 22px;
                 margin-top: 30px;
                 color: #161A30;
                 padding: 10px;
@@ -608,7 +608,7 @@
                 }
                 
                 .para-text{
-                    font-size: 15px;
+                    font-size: 18px;
                     
                 }
 
@@ -729,7 +729,7 @@
 
                 .school-title{
                     margin-top: 19px;
-                    font-size: 20px;
+                    font-size: 16px;
                 }
                 
                 .school-sub-title{
@@ -822,10 +822,22 @@
                     background-color:white;
                     width: 50px;
                     height: 50px;
-                    margin-left: 72%;
+                    margin-left: 74%;
                     margin-top: 180px;
                     position: fixed;
                     border-radius: 10%;
+                }
+
+                .sub-title{
+                    font-size: 20px;
+                }
+
+                .education-text-head{
+                    font-size: 16px ;
+                }
+
+                .education-text-title{
+                    font-size: 12px
                 }
 
         
