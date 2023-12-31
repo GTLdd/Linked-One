@@ -720,7 +720,7 @@
             }
 
             #Work-experience-section{
-                height: 3500px;
+                height: 3400px;
             }
             
 
@@ -754,7 +754,7 @@
             }
 
             .sgs-img{
-                height: 80px;
+                height: 100px;
             }
 
             .spoton-img{
@@ -791,6 +791,14 @@
 
             .icon-container{
                 margin-left: 60px;
+            }
+
+            .spoton-title{
+                margin-top: -30px;
+            }
+
+            .sgs-title{
+                margin-top: 33px;
             }
     
 
