@@ -12,6 +12,8 @@
             color: #F0ECE5;
         }
 
+
+
         .nav-head{
             font-family: 'Roboto Condensed', sans-serif;
             letter-spacing: 0.8mm;
@@ -508,7 +510,61 @@
             list-style:disc;
         }
 
-       
+        #about-section{
+            height: 350px;
+            background-color: #161A30 ;
+        }
+
+        .about-grid{
+            display: grid;
+            grid-template-rows: 300px;
+            grid-template-columns: repeat(4,300px);
+        }
+
+        .about-text{
+            color: white;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: lighter;
+            line-height: 0.6cm;
+            letter-spacing: 0.25mm;
+            margin-top: 60px;
+            margin-left: -10px;
+        }
+
+        .about-text-head{
+            color: white;
+            font-family: sans-serif;
+            font-size: 15px;
+            font-weight: lighter;
+            line-height: 0.6cm;
+            letter-spacing: 0.25mm;
+            margin-top: 60px;
+            margin-left: 16px;
+        }
+
+        .about-flex{
+                display: flex;
+                justify-content: center;
+        }
+
+        .svg-icon{
+            color: white;
+            margin-top: 60px;
+           
+        }
+
+        .social-app{
+            margin-right: 5px;
+        }
+
+        .icon-container{
+            margin-left: 120px;
+        }
+
+        .about-text{
+            margin-left: 40px;
+        }
 
 
         @media (max-width: 650px ){
@@ -708,6 +764,31 @@
 
             .gtl-img{
                 margin-left: -12px;
+            }
+
+            #about-section{
+                height: 1000px;
+            }
+
+
+            .about-flex{
+                display: block;
+            }
+
+            .about-grid{
+                display: block;
+            }
+
+            .about-text-head{
+                margin-left: 60px;
+            }
+
+            .about-text{
+                margin-left: 60px;
+            }
+
+            .icon-container{
+                margin-left: 60px;
             }
     
 
